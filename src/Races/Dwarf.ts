@@ -8,7 +8,6 @@ export default class Dwarf extends Race {
     dexterity: number,
   ) {
     super(name, dexterity);
-    this._maxLifePoints = 80;
     Dwarf._instancedDwarf += 1;
   }
     
